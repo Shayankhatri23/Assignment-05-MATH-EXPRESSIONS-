@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Math Expressions</h1>
+    <ul>
+        <li>
+            <a href="./home.html" style="color: black; text-decoration: none;">Home</a>
+        </li>
+    </ul>
+    <script>
+        var num = prompt("please enter a number table")
+        var mynum = +prompt("please enter a range of table")
+        for(var i=1;i<=mynum;i++){
+            document.write("<div>");
+            document.write(num + " X " + i + " = " + i*num);
+            document.write("</div>");    
+        }
+        
+    </script>
+</body>
+</html>
